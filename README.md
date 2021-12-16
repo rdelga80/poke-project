@@ -1,10 +1,12 @@
 # Pokemon Categorizing Project
 
-Collaboration between [Edward Lopez-Ramos]() and [Ricardo Delgado](https://github.com/rdelga80)
+Collaboration between [Edward Lopez-Ramos](https://github.com/edlopez000/), [Starr Asadi-Wright](https://github.com/ellisaw), and [Ricardo Delgado](https://github.com/rdelga80)
 
 ## Technology
 
 Built with [NuxtJs](https://nuxtjs.org)
+
+Leveraging [PokeAPI](https://pokeapi.co/)
 
 ## More Info
 
