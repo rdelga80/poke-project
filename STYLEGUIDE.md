@@ -251,6 +251,8 @@ This project uses the Nuxt framework.
     <div :class="{ solid }">
     ```
 
+7. Use Semantic Elements as much as possible: https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+
 ### Script
 
 1. Props should leverage as many Prop definitions as possible
