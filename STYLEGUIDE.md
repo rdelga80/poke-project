@@ -20,7 +20,9 @@ This project uses the Nuxt framework.
 
     Also, differentiate between a page, or administrative component (i.e. a component that sections of a part of a page component), and child components. Page and administrative components should be the highest levels of components, and the main holders of data.
 
-5.  Preference for v-slots over Props
+4. Follow a Domain Driven Design architecture, not a Functional Design. I.e. Homepage vs User. A good rule of thumb is to design how a user would think about the site versus how a developer would think about the site.
+
+5. Preference for v-slots over Props
 
     To keep Components dumb, use v-slots over props. Have the uppermost component handle `$emits`, etc, to keep logic flows as independent as possible.
 
