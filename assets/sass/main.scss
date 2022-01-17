@@ -1,3 +1,11 @@
-html {
-  font-size: 50px;
-}
+@charset 'UTF-8';
+
+@import 'utilities/functions';
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
+@import 'base/base';
+@import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/footer';

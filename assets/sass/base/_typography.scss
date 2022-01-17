@@ -1,0 +1,29 @@
+// Typographic scale
+// Modified boilerplate from https://kevdees.com/how-to-create-the-perfect-type-scale-in-scss/
+
+@use 'sass:math';
+
+@function toRem($value) {
+  $remValue: math.div($value, 16) + rem;
+  @return $remValue;
+}
+
+/* Base size */
+$scale: 1.222;
+$base: 16;
+
+body {
+  font-size: toRem($base);
+}
+
+/* Small sizes */
+// $sizes: p, h1, h2, h3, h4, h5;
+$sizes: p, h5, h4, h3, h2, h1;
+$size: $base;
+
+@each $name in $sizes {
+  $size: $size * $scale;
+  #{$name} {
+    font-size: toRem($size);
+  }
+}
